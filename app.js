@@ -1,15 +1,8 @@
-// select the button, nav,links
-
-
 const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".navLinks");
-const closeBtn = document.querySelector('.close-btn');
-const removeBody = document.querySelector('.display');
+const closeBtn = document.querySelector(".close-btn");
+const sideBar = document.querySelector(".sidebar");
 
-menuToggle.addEventListener('click', function(){
-    // console.log(navLinks.classList);
-    navLinks.classList.toggle('active');
-
-
-})
-
+menuToggle.addEventListener("click", function () {
+  console.log("hello world");
+  sideBar.classList.add("show-sidebar");
+});
